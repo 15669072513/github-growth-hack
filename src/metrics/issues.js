@@ -341,7 +341,7 @@ function someMemberHasReplied_graphql(issue) {
   // 遍历issue的comments.nodes
   for (let comment of issue.comments.nodes) {
     // 如果comment的作者和issue的作者相同，则跳过
-    if (comment.author.login == issue.author.login) {
+    if (issue.author!=null && comment.author !=null && comment.author.login == issue.author.login) {
       continue;
     }
     // 如果comment的作者和issue的作者关系是MEMBER、OWNER、CONTRIBUTOR，则返回true
