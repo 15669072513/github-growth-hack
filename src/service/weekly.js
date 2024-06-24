@@ -62,28 +62,6 @@ let octokit = null;
                      if (mergeRepoConfig[key] == null) {
                          repo2project.set(key, result);
                      }
-                     // 过滤出有危险问题的列表 ，修改相关bug，这里不在重复发送钉钉
-                     // let dangerousIssues = filterOutDangerousIssues(result.openIssues, to, result.owner, result.repo);
-                     // const dangerIssueFilterd = dangerousIssues.filter(res => res.duration < config.generalConfig.dangerousIssuesConfig.mustReplyInXDays);
-                     // if (dangerIssueFilterd.length === 0) {
-                     //     dangerousIssueDAO.insert(null, null, null, null, owner)
-                     // } else {
-                     //     dangerIssueFilterd.forEach((result) => {
-                     //         dangerousIssueDAO.insert(result.duration, result.project, result.title, result.url, result.keyword);
-                     //     });
-                     // }
-                     // 埋点数据 ToDo
-                     // dangerousIssueDAO.getMysqlDao().sendAlarmMysql({
-                     //   scanFrom:since,
-                     //   scanTo:to,
-                     //   owner:owner,
-                     //   repo:repo,
-                     //   issueNum:dangerIssueFilterd.length,
-                     //   alarmContent:"",
-                     //   alarmStatus:dangerIssueFilterd.length===0?'success':"fail",
-                     //   alarmType:'issue',
-                     //   alarmChannel:'dingding'
-                     // })
                      resultArr.push(result);
                  });
 
@@ -99,7 +77,6 @@ let octokit = null;
          insertDb(repo2project, since, to, config);
          // 提交weeklyScoreDAO
           weeklyScoreDAO.commit();
-          // dangerousIssueDAO.commit();
      })
 
 
@@ -273,44 +250,18 @@ function calculateScore(result) {
       2 * result.new_forks +
       // 计算新贡献者数量
       5 * result.new_contributors;
+  // console.log(result.repoName+"计算过程：2* newIssue("+result.newIssue.size+");3*newPr("+result.newPr.size+");4*prComment("+result.prComment.size+");2*closePr("+
+  //     result.closePr.size+");1*newStars("+result.new_stars+");2*newFork("+ result.new_forks+");5*newContributors("+result.new_contributors+")")
   return result;
 }
 
-// 计算v2版本的分数
-function calculateScore_v2_add(result) {
-  // 计算分数
-  result = calculateScore(result);
-
-  // 设置截止日期
-  const deadline = 30;
-  // 设置系数
-  const k = 10;
-  // 遍历关闭的issue
-  result.closeIssue.forEach((e) => {
-    // 判断是否是社区问题且已经有人回复
-    let care = isCommunityIssue(e) && someMemberHasReplied(e);
-    // 如果没有，则直接返回
-    if (!care) {
-      return;
-    }
-    // 计算关闭到创建的时间差
-    let duration = moment(e.closed_at, "YYYY-MM-DDTHH:mm:ssZ").diff(
-      moment(e.created_at, "YYYY-MM-DDTHH:mm:ssZ"),
-      "day"
-    );
-    // 如果小于截止日期，则将系数加入分数
-    if (duration < deadline) {
-      result.score += (k * (deadline - duration)) / deadline;
-    }
-  });
-  // 返回结果
-  return result;
-}
 
 // 计算分数函数，用于计算分数
 function calculateScore_v2_sub(config,result, to) {
   // 计算分数
   result = calculateScore(result);
+  let prevScore = result.score;
+  let dangerousIssueUrlList = new Array();
 
   // 计算分数的系数
   const k1 = 5;
@@ -325,7 +276,9 @@ function calculateScore_v2_sub(config,result, to) {
     } else {
       result.score -= k1;
     }
+      dangerousIssueUrlList.push(issue.url);
   });
+  console.log(result.repoName+"最初分数："+prevScore+";危险issue数量(每个减去5或者7分)："+dangerousIssues.length+"个；综合得分："+result.score+";危险ISSUE列表："+JSON.stringify(dangerousIssueUrlList));
 
   // 返回计算后的分数
   return result;
@@ -338,16 +291,7 @@ function isCommunityIssue(issue) {
   );
 }
 
-// 判断issue是否有回复
-function someMemberHasReplied(issue) {
-  // 如果issue没有评论，则返回false
-  if (issue.comments == 0) {
-    return false;
-  }
-  // let url = issue.timeline_url.replace("https: //", "https://");
-  // https://api.github.com/repos/mosn/layotto/issues/214/timeline
-  return true;
-}
+
 
 // 函数collectIssueData用于收集GitHub上指定仓库的Issue和PR数据
 function collectIssueData(orgName, repoName, since) {

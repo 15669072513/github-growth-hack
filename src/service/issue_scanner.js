@@ -138,6 +138,7 @@ const issueScanner = {
         }
         const repoConfig = config.orgRepoConfig[owner][repo]
         const livenessCheckConfig = getConfig(repoConfig['liveness-check'], config.orgRepoConfig[owner]['liveness-check'], config.generalConfig['liveness-check']);
+        const issueNotiferConfig = getConfig(repoConfig['issue-notifier'], config.orgRepoConfig[owner]['issue-notifier'], config.generalConfig['issue-notifier']);
         const restProme = listDangerousOpenIssues(config.generalConfig.graphToken, owner, repo, to).then(async resultsArray => {
 
           if (livenessCheckConfig.enable) {
@@ -165,26 +166,32 @@ const issueScanner = {
               })
             })
           }
-          resultsArray = resultsArray.filter(res => res.duration != null && res.duration < config.generalConfig.dangerousIssuesConfig.mustReplyInXDays)
-          if (resultsArray.length > 0) {
-            resultsArray.forEach((result) => {
-              dangerousIssueDAO.insert(result.duration, result.project, result.title, result.url, owner);
-            });
-          } else {
-            dangerousIssueDAO.insert(null, null, null, null, owner)
-          }
-          //触发报警数据埋点
-          dangerousIssueDAO.getMysqlDao().sendAlarmMysql({
-            scanFrom: since,
-            scanTo: to,
-            owner: owner,
-            repo: repo,
-            issueNum: resultsArray.length,
-            alarmContent: "",
-            alarmStatus: resultsArray.length === 0 ? 'success' : "fail",
-            alarmType: 'issue',
-            alarmChannel: 'dingding'
-          })
+
+          if (issueNotiferConfig.enable) {
+            resultsArray = resultsArray.filter(res => res.duration != null && res.duration < config.generalConfig.dangerousIssuesConfig.mustReplyInXDays)
+            if (resultsArray.length > 0) {
+              resultsArray.forEach((result) => {
+                dangerousIssueDAO.insert(result.duration, result.project, result.title, result.url, owner);
+              });
+            } else {
+              dangerousIssueDAO.insert(null, null, null, null, owner)
+            }
+            //触发报警数据埋点
+            dangerousIssueDAO.getMysqlDao().sendAlarmMysql({
+              scanFrom: since,
+              scanTo: to,
+              owner: owner,
+              repo: repo,
+              issueNum: resultsArray.length,
+              alarmContent: "",
+              alarmStatus: resultsArray.length === 0 ? 'success' : "fail",
+              alarmType: 'issue',
+              alarmChannel: 'dingding'
+            })
+
+          }//End of listDangerousOpenIssuees
+          
+
         });
         listDangerPromise.push(restProme)
       }
