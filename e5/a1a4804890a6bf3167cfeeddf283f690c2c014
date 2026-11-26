@@ -1,0 +1,14 @@
+README.md
+  h_31819e28c24c5f 140-141
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e5a1a4804890a6bf3167cfeeddf283f690c2c014",
+  "prompts": {},
+  "humans": {
+    "h_31819e28c24c5f": {
+      "author": "15669072513 <lhq01844380@antgroup.com>"
+    }
+  }
+}
