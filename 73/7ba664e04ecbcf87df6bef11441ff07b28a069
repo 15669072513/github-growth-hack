@@ -1,0 +1,32 @@
+huggingface/指标-HF可获取性对照表.md
+  s_fed4654d1872e3::t_81bc027eb05596 2-51,53-138
+  s_fed4654d1872e3::t_a37c5d440ff068 52
+  s_fed4654d1872e3::t_62876848de9f05 1
+huggingface/enrich_user_orgs.js
+  s_fed4654d1872e3::t_a306d4ddc6ef97 1-112
+huggingface/指标文档.md
+  s_fed4654d1872e3::t_1a4d17acdd14aa 39
+  s_fed4654d1872e3::t_9ea441db6cffc8 8
+  s_fed4654d1872e3::t_e2b53a70552a8b 47-76
+  s_fed4654d1872e3::t_74e4266ba1b3ff 15
+  s_fed4654d1872e3::t_bd357f7f049c00 5-7
+  s_fed4654d1872e3::t_2a6c626e228650 9-14
+  s_fed4654d1872e3::t_aca5881663f040 16-18,36-38
+  s_fed4654d1872e3::t_8876d4323549e0 40-42,44-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "737ba664e04ecbcf87df6bef11441ff07b28a069",
+  "prompts": {},
+  "sessions": {
+    "s_fed4654d1872e3": {
+      "agent_id": {
+        "tool": "codefuse",
+        "id": "171d2739-45d7-42f8-9752-0947e6671891",
+        "model": "GLM-5.3"
+      },
+      "human_author": "15669072513 <lhq01844380@antgroup.com>"
+    }
+  }
+}
