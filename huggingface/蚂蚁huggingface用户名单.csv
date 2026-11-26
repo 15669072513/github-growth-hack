@@ -1,0 +1,151 @@
+用户名,全名,姓名,花名,工号,角色,2FA,Pro,外部协作者,HF 主页,备注,最后活跃,活跃状态
+gnawux,Xu Wang,王旭,循环,203157.,admin,是,否,否,https://huggingface.co/gnawux,-,-,admin 豁免
+m1ngcheng,"mingcheng, aka 明城",吕峰军,明珹,15186.,admin,是,否,否,https://huggingface.co/m1ngcheng,-,-,admin 豁免
+neverland211,Yuxiao Lu,陆雨霄,阿霄,513157.,admin,否,否,否,https://huggingface.co/neverland211,-,-,admin 豁免
+michael-qiu,michael,仇大玉,皓圣,457501.,admin,否,否,否,https://huggingface.co/michael-qiu,2026-11-25 审计：角色由 contributor 升为 admin（2FA 未开）,-,admin 豁免
+leah67,Leah Liu,刘琪,昕峤,548448.,contributor,否,否,否,https://huggingface.co/leah67,-,无公开活动,沉睡（超半年未活跃）
+NadiaJiang,jiangbonadia,江波,菠酱,441748.,contributor,否,否,否,https://huggingface.co/NadiaJiang,-,2026-01-26,沉睡（超半年未活跃）
+FCL90,FCL,-,-,-,contributor,否,否,否,https://huggingface.co/FCL90,2026-04-29 嵩竹（张涵笑）代为申请 HF 权限，持有人待核,2026-04-29,沉睡（超半年未活跃）
+jakezhao2024,Junbo Zhao,-,-,-,contributor,否,否,否,https://huggingface.co/jakezhao2024,-,2026-09-09,低频
+JustinTong,Xinyuan Tong,-,-,-,contributor,是,否,否,https://huggingface.co/JustinTong,-,2026-11-23,活跃
+larme,Zhao Shenyang,-,-,-,contributor,否,否,否,https://huggingface.co/larme,-,2024-08-02,沉睡（超半年未活跃）
+riverclouds,Jiangyun Zhu,-,-,-,contributor,否,否,否,https://huggingface.co/riverclouds,-,2026-09-30,低频
+ssheng,Sean Sheng,-,-,-,contributor,否,否,否,https://huggingface.co/ssheng,-,无公开活动,沉睡（超半年未活跃）
+tliby,Teng LI,李腾,-,-,contributor,否,否,否,https://huggingface.co/tliby,2026-04-07 单聊自证（申请 HF 权限时自报）；与全名 Teng Li 印证；不在在册通讯录,2026-04-10,沉睡（超半年未活跃）
+xianbao,Tiezhen WANG,-,-,-,contributor,是,否,否,https://huggingface.co/xianbao,-,2026-02-04,沉睡（超半年未活跃）
+Zhenzhong-Danny,Lan,-,-,-,contributor,否,否,否,https://huggingface.co/Zhenzhong-Danny,-,2025-12-27,沉睡（超半年未活跃）
+CuiLong7,Long Cui,崔龙,猹理,-,contributor,否,否,是,https://huggingface.co/CuiLong7,已离职,2026-09-03,已离职
+curryandsun,xuan,孙一轩,轩潇,372175.,contributor,否,否,是,https://huggingface.co/curryandsun,已离职,2025-09-26,已离职
+FunJim,Zheng,郑训进,友恒,309154.,contributor,否,否,是,https://huggingface.co/FunJim,已离职,2025-10-21,已离职
+henrykwokkkk,henry,郑训进,友恒,309154.,contributor,否,否,是,https://huggingface.co/henrykwokkkk,已离职,无公开活动,已离职
+kenshinn,Zhenglin Cheng,程政淋,麟戎,495554.,contributor,否,是,是,https://huggingface.co/kenshinn,已离职,2025-12-29,已离职
+lccurious,Bill H,庄易鸿,鸿羽,411847.,contributor,否,否,是,https://huggingface.co/lccurious,已离职,2026-04-13,已离职
+ScottHao,Zihao Wang,王子豪,筱豪,113316.,contributor,否,否,是,https://huggingface.co/ScottHao,已离职,2026-09-10,已离职
+utdawn,YiHong Zhuang,庄易鸿,鸿羽,411847.,contributor,否,否,是,https://huggingface.co/utdawn,已离职,2026-08-20,已离职
+WaltonFuture,Lai Wei,魏来,炎珑,513608.,contributor,否,否,是,https://huggingface.co/WaltonFuture,已离职,2026-10-28,已离职
+York-Z,Yue Zhang,张跃,辰风,267551.,contributor,否,否,是,https://huggingface.co/York-Z,已离职,2025-10-23,已离职
+zhanghanxiao,zhanghanxiao,张涵笑,嵩竹,320877.,contributor,否,否,是,https://huggingface.co/zhanghanxiao,已离职,2026-02-16,已离职
+ZjWen,zujie wen,温祖杰,佳贺,119784.,contributor,否,否,是,https://huggingface.co/ZjWen,已离职,2026-02-12,已离职
+sophies-cb,Sophie Sun,-,-,-,no_access,是,否,否,https://huggingface.co/sophies-cb,-,无公开活动,沉睡（超半年未活跃）
+lvqier,Qier LU,吕奇儿,奇儿,116618.,read,是,否,否,https://huggingface.co/lvqier,-,无公开活动,沉睡（超半年未活跃）
+albertlee-baseten,Albert Lee,-,-,-,read,否,否,否,https://huggingface.co/albertlee-baseten,-,无公开活动,沉睡（超半年未活跃）
+AlexAtomic,Alex Atomic,-,-,-,read,否,否,否,https://huggingface.co/AlexAtomic,-,2026-11-24,活跃
+andyll7772,Andy Luo,-,-,-,read,是,否,否,https://huggingface.co/andyll7772,-,2026-11-04,活跃
+bo-deepinfra,Bo Hu,-,-,-,read,否,否,否,https://huggingface.co/bo-deepinfra,-,2026-07-27,低频
+ChangxinTian,Changxin Tian,-,-,-,read,否,否,否,https://huggingface.co/ChangxinTian,-,2026-11-02,活跃
+cydu-fw,Chuanying Du,-,-,-,read,否,否,否,https://huggingface.co/cydu-fw,-,2026-08-28,低频
+danielwinterw,Daniel Winter-Wijntjes,-,-,-,read,否,否,否,https://huggingface.co/danielwinterw,-,2026-11-06,活跃
+Ericyicy,joneson,-,-,-,read,否,否,否,https://huggingface.co/Ericyicy,-,无公开活动,沉睡（超半年未活跃）
+jamesdumay,James Dumay,-,-,-,read,是,是,否,https://huggingface.co/jamesdumay,-,2026-11-24,活跃
+kelseye,kelseye.xh,徐孩,-,-,read,否,否,否,https://huggingface.co/kelseye,2026-07-08 单聊自证（应询自报 HF id）；另持 robbyant 组织写权限；不在在册通讯录,2026-11-16,活跃
+nhat-di,Nhat Lam,-,-,-,read,否,否,否,https://huggingface.co/nhat-di,-,无公开活动,沉睡（超半年未活跃）
+notforu777,Nik Bogatyrev,-,-,-,read,是,否,否,https://huggingface.co/notforu777,-,2026-11-24,活跃
+ovuruska,Oguz Vuruskaner,-,-,-,read,否,是,否,https://huggingface.co/ovuruska,-,2026-11-18,活跃
+Pernekhan,Utemuratov,-,-,-,read,否,否,否,https://huggingface.co/Pernekhan,-,无公开活动,沉睡（超半年未活跃）
+RichardBian,Richard Bian,边思康,边澄,297466.,read,否,否,否,https://huggingface.co/RichardBian,已离职,2026-10-14,已离职
+runheyang,runheyang,-,-,-,read,否,否,否,https://huggingface.co/runheyang,-,2026-11-07,活跃
+shang-pin-deepinfra,Shang-Pin,-,-,-,read,否,否,否,https://huggingface.co/shang-pin-deepinfra,-,无公开活动,沉睡（超半年未活跃）
+thachnh,Thach Nguyen,-,-,-,read,否,否,否,https://huggingface.co/thachnh,-,2026-08-27,低频
+vitoyy,Yue yu,-,-,-,read,否,否,否,https://huggingface.co/vitoyy,-,2026-11-24,活跃
+wangrichard08,Richard Wang,-,-,-,read,是,否,否,https://huggingface.co/wangrichard08,-,2026-09-09,低频
+xiezipeng,xzp,-,-,-,read,否,否,否,https://huggingface.co/xiezipeng,-,2024-09-04,沉睡（超半年未活跃）
+zhaochenyang20,zhaochenyang20,-,-,-,read,否,否,否,https://huggingface.co/zhaochenyang20,-,2026-11-21,活跃
+xiaoyayaya,xiaxiaoya,夏小雅,雅芽,394185.,write,否,否,否,https://huggingface.co/xiaoyayaya,-,2026-05-15,沉睡（超半年未活跃）
+yongjielv,yongjie_lv,吕永杰,元乐,460394.,write,是,否,否,https://huggingface.co/yongjielv,-,2026-09-17,低频
+ArthurNull,Yuchen Fang,房宇辰,钰珵,185178.,write,是,否,否,https://huggingface.co/ArthurNull,-,2026-11-19,活跃
+b612code,b612code,黄美佳,流疏,370480.,write,否,否,否,https://huggingface.co/b612code,-,2026-09-02,低频
+bestfleer,zhangmingyang,张铭扬,悠扬,460290.,write,否,否,否,https://huggingface.co/bestfleer,-,2025-10-22,沉睡（超半年未活跃）
+Bin2bin,chan,陈斌斌,陈斌,476033.,write,否,否,否,https://huggingface.co/Bin2bin,-,2026-10-14,低频
+borisup,BorisHe,何子波,子波,120371.,write,否,否,否,https://huggingface.co/borisup,-,2026-10-18,低频
+cafe3310,Junnan Sipan,司潘俊楠,四盘,138020.,write,是,否,否,https://huggingface.co/cafe3310,-,2026-11-23,活跃
+caizhi1,C.Z. Tang,唐才智,松箫,162039.,write,否,否,否,https://huggingface.co/caizhi1,-,2026-04-28,沉睡（超半年未活跃）
+CatherineZY,zouyingcao,-,-,-,write,否,否,否,https://huggingface.co/CatherineZY,-,2026-08-11,低频
+Chencong1,chencong,陈聪,楚聪,471846.,write,是,否,否,https://huggingface.co/Chencong1,-,2026-06-12,低频
+chengle,chenyi zhuang,庄晨熠,诚乐,221522.,write,是,是,否,https://huggingface.co/chengle,-,2026-03-11,沉睡（超半年未活跃）
+Chunwei01,Wu,-,-,-,write,否,否,否,https://huggingface.co/Chunwei01,-,2026-02-15,沉睡（超半年未活跃）
+dikw,deng yong,邓勇,不倦,432738.,write,否,否,否,https://huggingface.co/dikw,-,2026-06-30,低频
+doubler,Jia Liu,刘佳,家牛,112708.,write,是,否,否,https://huggingface.co/doubler,-,2026-08-20,低频
+echoxvf,echoxvf,李综艺,乃逸,495819.,write,是,否,否,https://huggingface.co/echoxvf,-,2026-11-22,活跃
+erichen,Chen Liang,梁宸,晟谦,315885.,write,是,否,否,https://huggingface.co/erichen,-,2026-08-20,低频
+forde450,zheng,郑丹丹,元丹,73318.,write,否,否,否,https://huggingface.co/forde450,-,2025-10-02,沉睡（超半年未活跃）
+frank20230324,frank.jin,-,-,-,write,否,否,否,https://huggingface.co/frank20230324,-,2026-10-20,低频
+HaoxingChen,Haoxing chen,陈昊星,炎三,374953.,write,是,否,否,https://huggingface.co/HaoxingChen,-,2026-09-04,低频
+Harland,Haolin HE,孙仁和,明保,467160.,write,否,否,否,https://huggingface.co/Harland,-,2026-04-13,沉睡（超半年未活跃）
+im0qianqian,Qian Zhao,赵前,流愚,317110.,write,是,否,否,https://huggingface.co/im0qianqian,-,2026-08-12,低频
+jglee2046,Jianguo Li,-,-,-,write,否,否,否,https://huggingface.co/jglee2046,-,无公开活动,沉睡（超半年未活跃）
+Johnson-Lin,Linshaoxiong,-,-,-,write,否,否,否,https://huggingface.co/Johnson-Lin,-,2026-11-19,活跃
+Jonathan1909,Jonathan Zhao,-,-,-,write,否,否,否,https://huggingface.co/Jonathan1909,-,2026-10-22,低频
+jr96cn,j,姜建荣,翠神,467275.,write,是,否,否,https://huggingface.co/jr96cn,-,2026-09-02,低频
+Karras48,Siyuan,李思远,空浮,466887.,write,是,否,否,https://huggingface.co/Karras48,-,2026-11-24,活跃
+kqwyf,Yifei Wu,-,-,-,write,否,否,否,https://huggingface.co/kqwyf,-,2026-10-22,低频
+kunchenhf,Chen Kun,陈昊星,炎三,374953.,write,否,否,否,https://huggingface.co/kunchenhf,-,无公开活动,沉睡（超半年未活跃）
+langdaohlb,heliangbo,何梁博,朗道,239519.,write,是,否,否,https://huggingface.co/langdaohlb,-,2026-11-11,活跃
+LiangJiang,Jiang,蒋亮,天选,140807.,write,是,否,否,https://huggingface.co/LiangJiang,-,2026-11-05,活跃
+lizishuo2787,LI ZISHUO,李怀瑾,丹硕,518196.,write,是,否,否,https://huggingface.co/lizishuo2787,-,2026-10-29,活跃
+long0x0,longfei li,-,-,-,write,否,否,否,https://huggingface.co/long0x0,-,2026-08-06,低频
+luguoshan,Guoshan Lu,鲁国山,纵云,408240.,write,是,否,否,https://huggingface.co/luguoshan,2026-11-25 审计：账号 404（已删除）；members 列表已移除；疑似换号 grason-l（同日新见，待核）,2026-09-01,低频
+majiann,Jia-nan Ma,邓欣豪,欣豪,498765.,write,否,否,否,https://huggingface.co/majiann,-,2026-05-27,沉睡（超半年未活跃）
+Minstrel54524,Jikai Chen,-,-,-,write,否,否,否,https://huggingface.co/Minstrel54524,-,2025-10-13,沉睡（超半年未活跃）
+mmyin,Mingming Yin,殷明明,白光,454663.,write,是,否,否,https://huggingface.co/mmyin,-,2026-09-10,低频
+mx1,topsky,陈昆龙,拓扑,84439.,write,是,否,否,https://huggingface.co/mx1,-,2025-09-18,沉睡（超半年未活跃）
+NiniAndy,Andy Juang,-,-,-,write,否,否,否,https://huggingface.co/NiniAndy,-,2026-10-21,低频
+niqun123123,ni,倪群,群宇,309275.,write,是,否,否,https://huggingface.co/niqun123123,-,2026-11-24,活跃
+OwenLee1210,Lee,李红程,西浔,434862.,write,是,否,否,https://huggingface.co/OwenLee1210,-,2026-07-22,低频
+qcf568,Chenfan Qu,曲晨帆,晨帆,459794.,write,否,否,否,https://huggingface.co/qcf568,-,2026-11-19,活跃
+qingpei,qingpei.gqp,谭龙华,三洋,266649.,write,否,否,否,https://huggingface.co/qingpei,-,2026-09-29,低频
+RaymondTseng,Raymond,曾梓航,无师,472383.,write,否,否,否,https://huggingface.co/RaymondTseng,-,2026-10-26,活跃
+Rookie-Liu,Huabin Liu,刘华斌,落缤,498435.,write,否,否,否,https://huggingface.co/Rookie-Liu,-,2026-10-28,活跃
+rosyclouds,rosyclouds,-,-,-,write,否,否,否,https://huggingface.co/rosyclouds,-,2026-09-24,低频
+roysun2006,Renhe Sun,孙仁和,明保,467160.,write,是,是,否,https://huggingface.co/roysun2006,-,2026-11-05,活跃
+sheilashenyue,shenyue,-,-,-,write,否,否,否,https://huggingface.co/sheilashenyue,-,2026-11-22,活跃
+siquanL,siquan liu,刘思泉,-,WB503799,write,否,否,否,https://huggingface.co/siquanL,2025-08-07 单聊自证,2025-09-25,沉睡（超半年未活跃）
+sjs0606,sjs,李俊驰,-,WB02196997,write,否,否,否,https://huggingface.co/sjs0606,2026-07-06 单聊自证,2026-07-07,低频
+StarryQian,Qianxf,-,-,-,write,否,否,否,https://huggingface.co/StarryQian,-,无公开活动,沉睡（超半年未活跃）
+syorami,beitongzhou,-,-,-,write,是,否,否,https://huggingface.co/syorami,-,2026-10-26,活跃
+SZhanZ,Haozhan Shen,沈昊展,长臻,522191.,write,否,否,否,https://huggingface.co/SZhanZ,2026-11-10 zoomIncrement开源群自证（朗道代请权限，11-11 开通）,2026-11-11,活跃
+tanlonghua,Longhua Tan,谭龙华,三洋,266649.,write,否,否,否,https://huggingface.co/tanlonghua,-,2026-02-10,沉睡（超半年未活跃）
+tbie,Tiwei Bie,-,-,-,write,否,否,否,https://huggingface.co/tbie,-,2026-09-01,低频
+Ulov888,Liulin,刘琳,海牧,476151.,write,是,否,否,https://huggingface.co/Ulov888,-,2026-11-18,活跃
+wangzshy,wangzshy,王征,叶封,243539.,write,否,否,否,https://huggingface.co/wangzshy,-,2025-10-15,沉睡（超半年未活跃）
+whgaara,hang wang,王航,征实,326702.,write,是,否,否,https://huggingface.co/whgaara,-,2026-08-25,低频
+Williechai,Willie Chai,柴维珑,橘南,226104.,write,是,否,否,https://huggingface.co/Williechai,-,2026-11-06,活跃
+Woxxxe,Bowen Yang,杨博文,卧雪,377690.,write,是,否,否,https://huggingface.co/Woxxxe,-,无公开活动,沉睡（超半年未活跃）
+x1nyu,xinyu qiu,芯屿,-,-,write,否,否,否,https://huggingface.co/x1nyu,2026-06-12 单聊自证（HF id x1nyu；魔搭 xinyu020）；「芯屿」不在在册通讯录,2026-06-15,低频
+Xinhao-Deng,Xinhao,邓欣豪,欣豪,498765.,write,否,否,否,https://huggingface.co/Xinhao-Deng,2026-05-22 单聊自证（Xinhao-Deng 与 majiann 均为其账号，两个组织邀请均接受）；与 majiann 行同人,无公开活动,沉睡（超半年未活跃）
+xssstory,Shusheng Xu,徐树声,温差,467705.,write,是,否,否,https://huggingface.co/xssstory,-,2026-03-13,沉睡（超半年未活跃）
+Ya-Lin-Zhang,Lyn,张雅淋,墨翕,140117.,write,是,否,否,https://huggingface.co/Ya-Lin-Zhang,-,2026-11-04,活跃
+Yan95,YongYan,-,-,-,write,否,否,否,https://huggingface.co/Yan95,2026-08-26 丛容代发该账号链接申请 HF 组织加入（其团队成员），持有人待核,2026-09-16,低频
+yggao,Yingguo Gao,高英国,英先,220649.,write,否,否,否,https://huggingface.co/yggao,-,2026-09-15,低频
+Yong999,Yong Wang,王勇,淮煦,502961.,write,是,否,否,https://huggingface.co/Yong999,-,2026-11-10,活跃
+yuanluo,Yuan Luo,骆渊,文贤,396433.,write,是,否,否,https://huggingface.co/yuanluo,-,2026-10-25,低频
+yuxintian,Yuxin Tian,田煜鑫,诗昕,375282.,write,是,否,否,https://huggingface.co/yuxintian,-,2026-08-20,低频
+zengw,zeus,周倍同,倍同,447951.,write,否,否,否,https://huggingface.co/zengw,-,2026-02-11,沉睡（超半年未活跃）
+zenithli,li zenith,李亚泰,沉真,550491.,write,是,否,否,https://huggingface.co/zenithli,-,2026-10-30,活跃
+zhangxgu,Zhangxuan Gu,周倍同,倍同,447951.,write,否,否,否,https://huggingface.co/zhangxgu,-,2026-09-15,低频
+zhaoxin123,huan,-,-,-,write,否,否,否,https://huggingface.co/zhaoxin123,-,2026-09-03,低频
+zheyishine,Yao Zhao,赵耀,南霄,76074.,write,是,否,否,https://huggingface.co/zheyishine,-,2026-10-12,低频
+Zhihao827,Qiu,-,-,-,write,否,否,否,https://huggingface.co/Zhihao827,-,2026-11-18,活跃
+ZhuoerX,ZhuoerXu,许卓尔,桥舸,323315.,write,是,否,否,https://huggingface.co/ZhuoerX,-,2026-11-19,活跃
+zira-wang,wang,-,-,-,write,否,否,否,https://huggingface.co/zira-wang,-,2026-10-14,低频
+zyhuangnus,Ziyuan,郑丹丹,元丹,73318.,write,否,否,否,https://huggingface.co/zyhuangnus,-,2025-10-09,沉睡（超半年未活跃）
+zzqsmall,Zhang Zhiqiang,张志强,零幺,111074.,write,否,否,否,https://huggingface.co/zzqsmall,-,2026-02-13,沉睡（超半年未活跃）
+BiaoGong,Biao Gong,龚镖,-,265202.,write,否,否,否,https://huggingface.co/BiaoGong,2026-11-19 commits 审计补录：org write 成员此前遗漏；2FA 未开启；通讯录全拼唯一命中,2026-11-13,活跃
+grason-lu,Guoshan Lu,鲁国山,纵云,408240.,-,-,否,-,https://huggingface.co/grason-lu,2026-11-19 commits 审计补录：与 git 提交署名 Guoshan Lu 同人（30 次提交，最近 2026-11-16）；通讯录全拼唯一命中,2026-11-16,活跃
+JunjieOU,Junjie Ou,欧俊杰,行涯,460265.,-,-,否,-,https://huggingface.co/JunjieOU,2026-11-19 commits 审计补录：PR 协作、非 org 成员；通讯录全拼唯一命中,2025-08-08,沉睡（超半年未活跃）
+lexsming,liximing,李锡铭,秋川,104991.,-,-,否,-,https://huggingface.co/lexsming,2026-11-19 commits 审计补录：通讯录全拼命中；另有同名拼音黎细明（WB02225787）建议人工复核,2025-06-05,沉睡（超半年未活跃）
+Paramecium880,Yuchen Cao,曹宇成,予求,483473.,-,-,否,-,https://huggingface.co/Paramecium880,2026-11-19 commits 审计补录：PR 协作、非 org 成员；通讯录全拼唯一命中,2025-04-15,沉睡（超半年未活跃）
+XinxingYang,Yang,杨新星,-,80112.,-,-,否,-,https://huggingface.co/XinxingYang,2026-11-19 commits 审计补录：PR 协作、非 org 成员；通讯录全拼唯一命中,2025-04-24,沉睡（超半年未活跃）
+yuyuzuicool,yuchengyue,俞成悦,盈鱼,340769.,-,-,否,-,https://huggingface.co/yuyuzuicool,2026-11-19 commits 审计补录：PR 协作、非 org 成员；通讯录全拼唯一命中,2025-09-01,沉睡（超半年未活跃）
+zhangdonghao,Zhang,张栋豪,有禾,374925.,-,-,否,-,https://huggingface.co/zhangdonghao,2026-11-19 commits 审计补录：PR 协作、非 org 成员；通讯录全拼唯一命中,2025-04-25,沉睡（超半年未活跃）
+ant-lingfei,Guoyi Li,李国毅,凌暃,531406.,write,否,否,否,https://huggingface.co/ant-lingfei,2026-11-25 审计：members 新见（write）；通讯录全拼唯一命中,2026-11-24,活跃
+apeters,Lijun Wu,-,-,-,read,是,否,否,https://huggingface.co/apeters,2026-11-25 审计：members 新见（read）；全名 Lijun Wu，通讯录“吴丽君/吴琍君”二候选，待核,2026-11-22,活跃
+caohy666,caohengyuan,曹恒源,源九,524447.,write,否,否,否,https://huggingface.co/caohy666,2026-11-25 审计：members 新见（write）；通讯录全拼唯一命中,2026-11-13,活跃
+destinyera,Li Lin,-,-,-,write,否,否,否,https://huggingface.co/destinyera,2026-11-25 审计：members 新见（write）；身份待核,2026-11-23,活跃
+dodoyang,dodoyang,-,-,-,write,否,否,否,https://huggingface.co/dodoyang,2026-11-25 审计：members 新见（write）；身份待核,2026-11-20,活跃
+grason-l,grason-l,-,-,-,write,是,否,否,https://huggingface.co/grason-l,2026-11-25 审计：members 新见（write）；luguoshan 同日 404（账号已删/改名），疑似同人换号（鲁国山在职已核，408240，待核）；另有 grason-lu（Guoshan Lu）非成员署名提交,2026-11-18,活跃
+killa1218,Dean Tian,-,-,-,write,否,否,否,https://huggingface.co/killa1218,2026-11-25 审计：members 新见（write）；身份待核,2026-11-17,活跃
+liric24,Hua Chen,-,-,-,write,是,否,否,https://huggingface.co/liric24,2026-11-25 审计：members 新见（write）；身份待核,2025-06-05,沉睡（超半年未活跃）
+lishuang70345,Eddie Lee,-,-,-,write,否,否,否,https://huggingface.co/lishuang70345,2026-11-25 审计：members 新见（write）；身份待核,2026-11-23,活跃
+liukai22,KaiLiu,-,-,-,write,否,否,否,https://huggingface.co/liukai22,2026-11-25 审计：members 新见（write）；身份待核,2026-11-23,活跃
+lydhr,Lynne,-,-,-,write,否,否,否,https://huggingface.co/lydhr,2026-11-25 审计：members 新见（write）；身份待核,无公开活动,沉睡（超半年未活跃）
+zhuhaozh,zhu,-,-,-,write,否,否,否,https://huggingface.co/zhuhaozh,2026-11-25 审计：members 新见（write）；身份待核,2026-11-23,活跃

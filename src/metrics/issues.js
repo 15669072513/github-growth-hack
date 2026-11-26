@@ -46,12 +46,6 @@ async function listOpenIssues(token, owner, repo) {
         }
         totalCount
       }
-      # issue(number:384) {
-      #   id
-      #   author{
-      #     login
-      #   }
-      # }
     }
   }  
   `;
